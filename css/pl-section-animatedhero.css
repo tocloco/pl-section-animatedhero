@@ -1,0 +1,49 @@
+.pl-sn-hide {
+	z-index:1;
+}
+
+.pl-sn-hide .pl-sn-pad {
+	padding: 0;
+}
+
+.pl-sn-hide .pl-container-wrap {
+	padding: 0;
+}
+
+h3.hide-title {
+	cursor: pointer;
+}
+
+h3.hide-title {
+    margin: 0;
+}
+
+.hide-btn.pl-alignment-center {
+	padding: 1em;
+}
+
+h3.hide-title {
+    line-height: 71px;
+    font-size: 20px;
+}
+
+i.hs-icon {
+	margin-left: .3em;
+}
+
+.pl_animated_hero {
+	/*opacity:1;*/
+}
+
+.pl_animated_hero_5050 {
+	margin: 0; padding: 0; float: left; width:49.5%; text-align: center;
+}
+.pl_animated_herotext {
+}
+
+@media screen and (max-width: 768px) {
+	.pl_animated_hero_5050 {
+	margin: 0; padding: 0; float: left; width:100%; text-align: center;
+}
+
+}
