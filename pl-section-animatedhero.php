@@ -7,7 +7,7 @@
 
   Author:      TOCLOCO LTD
 
-  Version:     1.0.3
+  Version:     1.0.2
 
   PageLines:   PL_Section_AnimatedHero
 
@@ -303,7 +303,7 @@ class PL_Section_AnimatedHero extends PL_Section {
 			
 		</style>
 		<div class="pl-content-area">
-	        <div class="center-media" style="display: flex; align-items: center;">
+	        <div class="center-media" style=" align-items: center;">
 		        <div class="pl_animated_hero_5050">
 			        <?php 
 				        if($reversed == 1){
