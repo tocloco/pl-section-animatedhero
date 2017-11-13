@@ -7,7 +7,7 @@
 
   Author:      TOCLOCO LTD
 
-  Version:     1.0.2
+  Version:     1.0.3
 
   PageLines:   PL_Section_AnimatedHero
 
@@ -240,7 +240,7 @@ class PL_Section_AnimatedHero extends PL_Section {
 		}
 		$textcode .= '"  class="pl_animated_herotext">';
 		$textcode .= "<h1 style=\"font-family: $font; font-weight: $weight; font-size: $fontsize; \" data-bind=\"plshortcode: headertext\">$headertext</h1>";
-		$textcode .= "<h2 style=\"margin-top:1%; font-family: $subfont; font-weight: $subweight; font-size: $subfontsize; \" data-bind=\"plshortcode: subtext\">$subtext</h2></div>";
+		$textcode .= "<h2 style=\"margin-top:1%; font-family: $subfont; font-weight: $subweight; font-size: $subfontsize;  line-height: 150%; \" data-bind=\"plshortcode: subtext\">$subtext</h2></div>";
 		
 		?>
 		<style>
@@ -303,7 +303,7 @@ class PL_Section_AnimatedHero extends PL_Section {
 			
 		</style>
 		<div class="pl-content-area">
-	        <div class="center-media">
+	        <div class="center-media" style="display: flex; align-items: center;">
 		        <div class="pl_animated_hero_5050">
 			        <?php 
 				        if($reversed == 1){
