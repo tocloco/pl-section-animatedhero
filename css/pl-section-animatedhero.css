@@ -40,10 +40,16 @@ i.hs-icon {
 }
 .pl_animated_herotext {
 }
+.center-media {
+	display: flex;
+}
 
 @media screen and (max-width: 768px) {
 	.pl_animated_hero_5050 {
-	margin: 0; padding: 0; float: left; width:100%; text-align: center;
+		margin: 0; padding: 0; float: left; width:100%; text-align: center;
+	}
+.center-media {
+	display: block;
 }
 
 }
